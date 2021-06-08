@@ -1,10 +1,14 @@
+import { NgMaterialModule } from './sheard/ng-material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
+
+import { IconModule, IconSetModule, IconSetService } from '@coreui/icons-angular';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -24,12 +28,7 @@ const APP_CONTAINERS = [
   DefaultLayoutComponent
 ];
 
-import {
-  AppAsideModule,
-  AppBreadcrumbModule,
-  AppHeaderModule,
-  AppFooterModule,
-  AppSidebarModule,
+import {AppAsideModule, AppBreadcrumbModule, AppHeaderModule, AppFooterModule, AppSidebarModule,
 } from '@coreui/angular';
 
 // Import routing module
@@ -38,11 +37,13 @@ import { AppRoutingModule } from './app.routing';
 // Import 3rd party components
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
-import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
@@ -52,7 +53,10 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    IconModule,
+    IconSetModule.forRoot(),
+    NgMaterialModule
   ],
   declarations: [
     AppComponent,
@@ -62,10 +66,13 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     LoginComponent,
     RegisterComponent
   ],
-  providers: [{
-    provide: LocationStrategy,
-    useClass: HashLocationStrategy
-  }],
+  providers: [
+    {
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy
+    },
+    IconSetService,
+  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

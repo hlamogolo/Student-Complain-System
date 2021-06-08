@@ -1,139 +1,62 @@
 <div class="animated fadeIn">
   <div class="card">
     <div class="card-header">
-      <i class="icon-drop"></i> Theme colors
+      <i class="cil-bug"></i> Students' Complaints
     </div>
     <div class="card-body">
-      <div class="row">
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-primary theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Primary Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-secondary theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Secondary Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-success theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Success Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-danger theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Danger Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-warning theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Warning Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-info theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Info Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-light theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Light Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-dark theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Brand Dark Color</h6>
-        </div>
+      <div class="row col-lg-6">
+        <mat-form-field>
+          <mat-label><i class="cil-search fix-alignment"></i> Filter</mat-label>
+          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+        </mat-form-field>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      <i class="icon-drop"></i> Grays
-    </div>
-    <div class="card-body">
-      <div class="row mb-3">
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-100 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 100 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-200 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 200 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-300 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 300 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-400 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 400 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-500 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 500 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-600 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 600 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-700 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 700 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-800 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 800 Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-gray-900 theme-color w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Gray 900 Color</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      <i class="icon-drop"></i> Additional colors
-    </div>
-    <div class="card-body">
-      <div class="row">
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-blue theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Blue Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-light-blue theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Light Blue Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-indigo theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Indigo Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-purple theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Purple Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-pink theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Pink Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-red theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Red Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-orange theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Orange Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-yellow theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Yellow Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-green theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Green Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-teal theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Teal Color</h6>
-        </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-          <div class="bg-cyan theme-color mb-3 w-75 rounded mb-2" style="padding-top:75%"></div>
-          <h6>Cyan Color</h6>
+      <div class="row table-wrapper">
+        <div class="example-container mat-elevation-z8 w-100">
+          <table mat-table [dataSource]="dataSource" class="w-100">
+        
+            <!-- Name Column -->
+            <ng-container matColumnDef="name" sticky>
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+        
+            <!-- Position Column -->
+            <ng-container matColumnDef="position">
+              <th mat-header-cell *matHeaderCellDef> No. </th>
+              <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+            </ng-container>
+        
+            <!-- Weight Column -->
+            <ng-container matColumnDef="weight">
+              <th mat-header-cell *matHeaderCellDef> Weight </th>
+              <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+            </ng-container>
+        
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="symbol">
+              <th mat-header-cell *matHeaderCellDef> Symbol </th>
+              <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+            </ng-container>
+        
+            <!-- Star Column -->
+            <ng-container matColumnDef="star" stickyEnd>
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let element">
+                <!-- <mat-icon>more_vert</mat-icon> -->
+                <mat-form-field appearance="outline" class="" style="max-width: 125px;">
+                  <mat-label>Select Action</mat-label>
+                  <mat-select>
+                    <mat-option value="one">First option</mat-option>
+                    <mat-option value="two">Second option</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+          <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
         </div>
       </div>
     </div>

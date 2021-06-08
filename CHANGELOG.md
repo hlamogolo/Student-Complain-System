@@ -1,4 +1,460 @@
-## [angular](./README.md) version `changelog`
+## [CoreUI for Angular](./README.md) version `changelog`
+
+###### `v2.11.2`
+
+- chore: update to `Angular 11.2`
+
+###### dependencies update
+- update `@angular/animations` to `^11.2.5`
+- update `@angular/cdk` to `^11.2.4
+- update `@angular/common` to `^11.2.5`
+- update `@angular/compiler` to `^11.2.5`
+- update `@angular/core` to `^11.2.5`
+- update `@angular/forms` to `^11.2.5`
+- update `@angular/localize` to `^11.2.5`
+- update `@angular/platform-browser` to `^11.2.5`
+- update `@angular/platform-browser-dynamic` to `^11.2.5`
+- update `@angular/router` to `^11.2.5`
+- update `@coreui/angular` to `^2.11.2`
+- update `core-js` to `^3.9.1`
+- update `rxjs` to `^6.6.6`
+- update `@angular-devkit/build-angular` to `^0.1102.4`
+- update `@angular/cli` to `^11.2.4`
+- update `@angular/compiler-cli` to `^11.2.5`
+- update `@angular/language-service` to `^11.2.5`
+- update `@types/jasmine` to `^3.6.6`
+- update `@types/node` to `^14.14.33`
+- update `typescript` to `^4.1.5`
+
+###### `v2.11.1`
+
+- chore: update to `Angular 11.1`
+
+###### dependencies update
+- update `@angular/animations` to `^11.1.0`
+- update `@angular/cdk` to `^11.1.0`
+- update `@angular/common` to `^11.1.0`
+- update `@angular/compiler` to `^11.1.0`
+- update `@angular/core` to `^11.1.0`
+- update `@angular/forms` to `^11.1.0`
+- update `@angular/localize` to `^11.1.0`
+- update `@angular/platform-browser` to `^11.1.0`
+- update `@angular/platform-browser-dynamic` to `^11.1.0`
+- update `@angular/router` to `^11.1.0`
+- update `@coreui/angular` to `~2.11.1`
+- update `bootstrap` to `^4.6.0`
+- update `core-js` to `^3.8.3`
+- update `@angular-devkit/build-angular` to `^0.1101.1`
+- update `@angular/cli` to `^11.1.1`
+- update `@angular/compiler-cli` to `^11.1.0`
+- update `@angular/language-service` to `^11.1.0`
+- update `@types/jasmine` to `^3.6.3`
+- update `@types/node` to `^14.14.22`
+
+###### `v2.11.0`
+
+- chore: update to `Angular 11` and `TypeScript 4`
+  - [https://update.angular.io/](https://update.angular.io/?v=10.2-11.0)
+  - [https://v11.angular.io/guide/updating-to-version-11](https://v11.angular.io/guide/updating-to-version-11)
+  - [TypeScript: Documentation - TypeScript 4](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-0.html)
+  - remove deprecated support for IE 9, 10, and IE mobile
+
+###### dependencies update
+- update `@angular/animations` to `^11.0.9`
+- update `@angular/cdk` to `^11.0.4`
+- update `@angular/common` to `^11.0.9`
+- update `@angular/compiler` to `^11.0.9`
+- update `@angular/core` to `^11.0.9`
+- update `@angular/forms` to `^11.0.9`
+- update `@angular/localize` to `^11.0.9`
+- update `@angular/platform-browser` to `^11.0.9`
+- update `@angular/platform-browser-dynamic` to `^11.0.9`
+- update `@angular/router` to `^11.0.9`
+- update `@coreui/angular` to `~2.11.0`
+- update `@angular-devkit/build-angular` to `^0.1100.7`
+- update `@angular/cli` to `^11.0.7`
+- update `@angular/compiler-cli` to `^11.0.9`
+- update `@angular/language-service` to `^11.0.9`
+- update `@types/jasmine` to `~3.6.0`
+- update `codelyzer` to `^6.0.0`
+- update `karma-coverage` to `~2.0.3`
+- update `typescript` to `~4.0.5`
+
+###### `v2.10.0`
+
+- chore: update to `Angular 10` and `TypeScript 3.9`
+  - [https://update.angular.io/](https://update.angular.io/?v=9.1-10.2)
+  - [https://v10.angular.io/guide/updating-to-version-10](https://v10.angular.io/guide/updating-to-version-10)
+  - [TypeScript: Documentation - TypeScript 3.9](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html)
+
+
+- test: deprecate `async()` in favour of `waitForAsync()`
+
+###### dependencies update
+- update `@angular/animations` to `^10.2.4`
+- update `@angular/cdk` to `^10.2.7`
+- update `@angular/common` to `^10.2.4`
+- update `@angular/compiler` to `^10.2.4`
+- update `@angular/core` to `^10.2.4`
+- update `@angular/forms` to `^10.2.4`
+- update `@angular/localize` to `^10.2.4`
+- update `@angular/platform-browser` to `^10.2.4`
+- update `@angular/platform-browser-dynamic` to `^10.2.4`
+- update `@angular/router` to `^10.2.4`
+- update `@coreui/angular` to `~2.10.0`
+- update `classlist.js` to `^1.1.20150312`
+- update `ng2-charts` to `^2.4.2`
+- update `ngx-bootstrap` to `^6.2.0`
+- update `ngx-perfect-scrollbar` to `^10.1.0`
+- update `tslib` to `^2.0.0`
+- update `@angular-devkit/build-angular` to `^0.1002.1`
+- update `@angular/cli` to `^10.2.1`
+- update `@angular/compiler-cli` to `^10.2.4`
+- update `@angular/language-service` to `^10.2.4`
+- update `jasmine-core` to `~3.6.0`
+- update `jasmine-spec-reporter` to `~5.0.0`
+- update `karma` to `~5.2.0`
+- update `karma-chrome-launcher` to `~3.1.0`
+- update `karma-coverage-istanbul-reporter` to `~3.0.2`
+- update `karma-jasmine` to `~4.0.0`
+- update `karma-jasmine-html-reporter` to `^1.5.0`
+- update `protractor` to `~7.0.0`
+- update `tslint` to `~6.1.0`
+- update `typescript` to `^3.9.7`
+
+
+###### `v2.9.6`
+- feat(icons): update to @coreui/icons v2 and @coreui/icons-angular
+
+###### dependencies update
+- update `@angular/animations` to `^9.1.13`
+- update `@angular/cdk` to `^9.2.4`
+- update `@angular/common` to `^9.1.13`
+- update `@angular/compiler` to `^9.1.13`
+- update `@angular/core` to `^9.1.13`
+- update `@angular/forms` to `^9.1.13`
+- update `@angular/platform-browser` to `^9.1.13`
+- update `@angular/platform-browser-dynamic` to `^9.1.13`
+- update `@angular/router` to `^9.1.13`
+- update `@coreui/angular`: `~2.9.6`
+- update `@coreui/icons` to `^2.0.0-rc.0`
+- update `@coreui/icons-angular` to `1.0.0-alpha.3`
+- update `bootstrap` to `^4.5.3`
+- update `chart.js` to `^2.9.4`
+- update `core-js` to `^3.8.2`
+- update `ng2-charts` to `~2.3.3`
+- update `ngx-bootstrap` to `^5.6.2`
+- update `rxjs` to `^6.6.3`
+- update `simple-line-icons` to `^2.5.5`
+- update `tslib` to `^1.14.1`
+- update `@angular-devkit/build-angular` to `^0.901.13`
+- update `@angular/cli` to `^9.1.13`
+- update `@angular/compiler-cli` to `^9.1.13`
+- update `@angular/language-service` to `^9.1.13`
+- update `@types/jasmine` to `^3.6.2`
+- update `@types/node` to `^14.14.20`
+- update `karma` to `^5.2.3`
+
+###### `v2.9.5`
+- fix(simple-line-icons): Can't resolve simple-line-icons.css - fixes #196
+
+###### dependencies update
+- update `simple-line-icons`  to `^2.5.2`
+- update `@angular-devkit/build-angular`  to `^0.901.12`
+- update `@angular/cli`  to `^9.1.12`
+- update `@types/jasmine`  to `^3.5.12`
+- update `jasmine-core`  to `^3.6.0`
+- update `jasmine-spec-reporter`  to `^5.0.2`
+- update `karma`  to `^5.1.1`
+- update `karma-coverage-istanbul-reporter`  to `^3.0.3`
+- update `tslint`  to `^6.1.3`
+
+###### `v2.9.4`
+- refactor(polyfills): update core-js polyfills imports
+
+###### dependencies update
+- update `@angular/animations` to `^9.1.12`
+- update `@angular/common` to `^9.1.12`
+- update `@angular/compiler` to `^9.1.12`
+- update `@angular/core` to `^9.1.12`
+- update `@angular/forms` to `^9.1.12`
+- update `@angular/platform-browser` to `^9.1.12`
+- update `@angular/platform-browser-dynamic` to `^9.1.12`
+- update `@angular/router` to `^9.1.12`
+- update `@coreui/angular` to `~2.9.4`
+- update `bootstrap` to `^4.5.0`
+- update `core-js` to `^3.6.5`
+- update `flag-icon-css` to `^3.5.0`
+- update `moment` to `^2.27.0`
+- update `mutationobserver-shim` to `^0.3.7`
+- update `ng2-charts` to `^2.3.2`
+- update `rxjs` to `^6.6.0`
+- update `tslib` to `^1.13.0`
+- update `@angular-devkit/build-angular` to `^0.901.11`
+- update `@angular/cli` to `^9.1.11`
+- update `@angular/compiler-cli` to `^9.1.12`
+- update `@angular/language-service` to `^9.1.12`
+- update `@types/jasmine` to `^3.5.11`
+- update `@types/node` to `^13.13.14`
+- update `karma` to `^5.1.0`
+- update `karma-jasmine` to `^3.3.1`
+- update `karma-jasmine-html-reporter` to `^1.5.4`
+- update `protractor` to `^7.0.0`
+- update `ts-node` to `^8.10.2`
+
+###### `v2.9.2`
+- fix(navbars): cannot find module `ngx-bootstrap`
+
+###### dependencies update
+- update `@angular/animations` to `^9.1.1`
+- update `@angular/common` to `^9.1.1`
+- update `@angular/compiler` to `^9.1.1`
+- update `@angular/core` to `^9.1.1`
+- update `@angular/forms` to `^9.1.1`
+- update `@angular/platform-browser` to `^9.1.1`
+- update `@angular/platform-browser-dynamic` to `^9.1.1`
+- update `@angular/router` to `^9.1.1`
+- update `@coreui/angular` to `^2.9.2`
+- update `bootstrap` to `^4.4.1`
+- update `chart.js` to `^2.9.3`
+- update `mutationobserver-shim` to `^0.3.5`
+- update `ngx-bootstrap` to `^5.6.1`
+- update `ngx-perfect-scrollbar` to `^9.0.0`
+- update `rxjs` to `^6.5.5`
+- update `tslib` to `^1.11.1`
+- update `zone.js` to `~0.10.3`
+- update `@angular-devkit/build-angular` to `~0.901.1`
+- update `@angular/cli` to `^9.1.1`
+- update `@angular/compiler-cli` to `^9.1.1`
+- update `@angular/language-service` to `^9.1.1`
+- update `@types/jasmine` to `^3.5.10`
+- update `@types/node` to `^13.11.1`
+- update `codelyzer` to `^5.2.2`
+- update `jasmine-spec-reporter` to `^5.0.1`
+- update `karma` to `^5.0.1`
+- update `karma-coverage-istanbul-reporter` to `^2.1.1`
+- update `karma-jasmine` to `^3.1.1`
+- update `karma-jasmine-html-reporter` to `^1.5.3`
+- update `protractor` to `^5.4.3`
+- update `ts-node` to `^8.8.2`
+- update `tslint` to `^6.1.1`
+
+###### `v2.9.0`
+- chore: update to `Angular 9.0.0`
+    - [https://update.angular.io/](https://update.angular.io/#8.0:9.0)
+    - [https://angular.io/guide/updating-to-version-9](https://angular.io/guide/updating-to-version-9)
+    - [https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
+
+- chore: update to `TypeScript 3.7`
+    - [https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html)
+    - [https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-6.html](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-6.html)
+
+###### dependencies update
+- update `@angular/animations` to `^9.0.0`
+- update `@angular/common` to `^9.0.0`
+- update `@angular/compiler` to `^9.0.0`
+- update `@angular/core` to `^9.0.0`
+- update `@angular/forms` to `^9.0.0`
+- update `@angular/platform-browser` to `^9.0.0`
+- update `@angular/platform-browser-dynamic` to `^9.0.0`
+- update `@angular/router` to `^9.0.0`
+- update `@coreui/angular` to `^2.9.0`
+- update `flag-icon-css` to `^3.4.6`
+- update `@angular-devkit/build-angular` to `^0.900.1`
+- update `@angular/cli` to `^9.0.1`
+- update `@angular/compiler-cli` to `^9.0.0`
+- update `@angular/language-service` to `^9.0.0`
+- update `@types/jasmine` to `^3.5.3`
+- update `karma-jasmine-html-reporter` to `^1.5.2`
+- update `typescript` to `~3.7.5`
+
+###### `v2.7.5`
+- fix(carousels): move to picsum.photos
+
+###### dependencies update
+- update `@coreui/angular` to `^2.7.5`
+- update `@angular/animations` to `^9.0.0-rc.12`
+- update `@angular/common` to `^9.0.0-rc.12`
+- update `@angular/compiler` to `^9.0.0-rc.12`
+- update `@angular/core` to `^9.0.0-rc.12`
+- update `@angular/forms` to `^9.0.0-rc.12`
+- update `@angular/platform-browser` to `^9.0.0-rc.12`
+- update `@angular/platform-browser-dynamic` to `^9.0.0-rc.12`
+- update `@angular/router` to `^9.0.0-rc.12`
+- update `@angular-devkit/build-angular` to `^0.900.0-rc.12`
+- update `@angular/cli` to `^9.0.0-rc.12`
+- update `@angular/compiler-cli` to `^9.0.0-rc.12`
+- update `@angular/language-service` to `^9.0.0-rc.12` 
+
+###### `v2.7.2` 
+- feat: add missing Navbars example - thanks @EliasDerHai
+
+###### dependencies update
+- update `@angular/animations` to `^9.0.0-rc.7`
+- update `@angular/common` to `^9.0.0-rc.7`
+- update `@angular/compiler` to `^9.0.0-rc.7`
+- update `@angular/core` to `^9.0.0-rc.7`
+- update `@angular/forms` to `^9.0.0-rc.7`
+- update `@angular/platform-browser` to `^9.0.0-rc.7`
+- update `@angular/platform-browser-dynamic` to `^9.0.0-rc.7`
+- update `@angular/router` to `^9.0.0-rc.7`
+- update `@coreui/angular` to `^2.7.2`
+- update `core-js` to `^2.6.11`
+- update `@angular-devkit/build-angular` to `^0.900.0-rc.7`
+- update `@angular/cli` to `^9.0.0-rc.7`
+- update `@angular/compiler-cli` to `^9.0.0-rc.7`
+- update `@angular/language-service` to `^9.0.0-rc.7`
+- update `codelyzer` to `^5.2.1`
+
+###### `v2.7.0` for Angular 9
+- chore: upgrade to Angular 9 - see also: 
+    - `https://next.angular.io/guide/updating-to-version-9`
+    - `https://update.angular.io/#8.0:9.0`
+
+###### dependencies update
+- update `@coreui/angular` to `^2.7.0`
+- update `@angular/animations` to `^9.0.0-rc.0`
+- update `@angular/common` to `^9.0.0-rc.0`
+- update `@angular/compiler` to `^9.0.0-rc.0`
+- update `@angular/core` to `^9.0.0-rc.0`
+- update `@angular/forms` to `^9.0.0-rc.0`
+- update `@angular/platform-browser` to `^9.0.0-rc.0`
+- update `@angular/platform-browser-dynamic` to `^9.0.0-rc.0`
+- update `@angular/router` to `^9.0.0-rc.0`
+- update `zone.js` to `~0.10.2`
+- update `@angular-devkit/build-angular` to `~0.900.0-rc.0`
+- update `@angular/cli` to `^9.0.0-rc.0`
+- update `@angular/compiler-cli` to `^9.0.0-rc.0`
+- update `@angular/language-service` to `^9.0.0-rc.0`
+- update `@types/jasmine` to `^3.4.5`
+- update `@types/node` to `^12.11.1`
+- update `codelyzer` to `^5.1.2`
+- update `typescript` to `~3.6.4`
+- update `chart.js` to `^2.9.2`
+
+###### `v2.5.3`
+- fix(polyfills): add optional settings for IE10 issues
+- refactor(_nav.ts): INavData moved from _nav.ts to import from @coreui/angular
+- refactor(default-layout): drop MutationObserver, add minimizedChange event
+- fix(dashboard): `scales.[x/y]Axes.barPercentage` is deprecated. Please use `dataset.barPercentage` instead
+- fix(widgets): `scales.[x/y]Axes.barPercentage` is deprecated. Please use `dataset.barPercentage` instead
+- test: add e2e test bed with some tests 
+
+###### dependencies update
+- update `@angular/animations` to `^8.2.10`
+- update `@angular/common` to `^8.2.12`
+- update `@angular/compiler` to `^8.2.12`
+- update `@angular/core` to `^8.2.12`
+- update `@angular/forms` to `^8.2.12`
+- update `@angular/platform-browser` to `^8.2.12`
+- update `@angular/platform-browser-dynamic` to `^8.2.12`
+- update `@angular/router` to `^8.2.12`
+- update `@coreui/angular` to `^2.6.3`
+- update `@coreui/coreui` to `^2.1.16`
+- update `chart.js` to `^2.9.1`
+- update `core-js` to `^2.6.10`
+- update `flag-icon-css` to `^3.4.5`
+- update `ngx-bootstrap` to `^5.2.0`
+- update `rxjs` to `^6.5.3`
+- update `web-animations-js` to `^2.3.2`
+- update `zone.js` to `^0.10.2`
+- update `@angular-devkit/build-angular` to `^0.803.15`
+- update `@angular/cli` to `^8.3.15`
+- update `@angular/compiler-cli` to `^8.2.12`
+- update `@angular/language-service` to `^8.2.12`
+- update `@types/jasmine` to `^3.4.4`
+- update `@types/jasminewd2` to `^2.0.8`
+- update `@types/node` to `^12.7.12`
+- update `codelyzer` to `^5.2.0`
+- update `jasmine-core` to `^3.5.0`
+- update `karma` to `^4.4.1`
+- update `karma-chrome-launcher` to `^3.1.0`
+- update `karma-coverage-istanbul-reporter` to `^2.1.0`    
+- update `ts-node` to `^8.4.1`
+- update `tslint` to `^5.20.0`
+
+###### `v2.5.2`
+- fix(cards): card with header actions
+- fix(carousels): images and intervals cleanup
+
+###### dependencies update
+- update `@angular/animations` to `^8.0.2`
+- update `@angular/common` to `^8.0.2`
+- update `@angular/compiler` to `^8.0.2`
+- update `@angular/core` to `^8.0.2`
+- update `@angular/forms` to `^8.0.2`
+- update `@angular/platform-browser` to `^8.0.2`
+- update `@angular/platform-browser-dynamic` to `^8.0.2`
+- update `@angular/router` to `^8.0.2`
+- update `@coreui/angular` to `^2.5.2`
+- update `@coreui/coreui` to `^2.1.12`
+- update `@angular-devkit/build-angular` to `^0.800.3`
+- update `@angular/cli` to `^8.0.3`
+- update `@angular/compiler-cli` to `^8.0.2`
+- update `@angular/language-service` to `^8.0.2`
+- update `@types/node` to `^12.0.8`
+- update `ts-node` to `^8.3.0`
+    
+###### `v2.5.1`
+###### dependencies update
+- update `@coreui/angular` to `^2.5.1`
+- update `ngx-bootstrap` to `^5.0.0` 
+- update `ngx-perfect-scrollbar` to `^8.0.0`
+- update `tslib` to `^1.10.0`
+- update `@angular-devkit/build-angular` to `^0.800.2`
+- update `@angular/cli` to `^8.0.2`
+- update `@types/node` to `^12.0.7`
+
+###### `v2.5.0`
+- refactor(app.routing): lazy loading via dynamic import()
+- refactor(modals): `ViewChild` second parameter 
+- refactor(tsconfig): `module: esnext` and `target: es5` 
+- chore: update `ng2-charts@2.3.0` imports
+- chore: update `ngx-bootstrap@4.2.0` 
+- fix(collapse): `No provider for AnimationBuilder` add import `BrowserAnimationsModule` to app.module
+- fix(polyfill): import `web-animations-js`
+- chore(tslint): remove depracated/undefined rules  
+- chore(tsconfig): set "target" to "es5" / IE11 compatible
+
+###### breaking changes
+- `Angular v8.0.0` (see https://update.angular.io/)
+- `@ViewChild` second parameter required 
+- `BrowserAnimationsModule` required
+- routing: lazy loading via dynamic import()
+
+###### dependencies update
+- update: Angular to `v8.0.0`
+- update: `@angular/animations` to `^8.0.0`
+- update: `@angular/common` to `^8.0.0`
+- update: `@angular/compiler` to `^8.0.0`
+- update: `@angular/core` to `^8.0.0`
+- update: `@angular/forms` to `^8.0.0`
+- update: `@angular/http` to `^8.0.0-beta.10`
+- update: `@angular/platform-browser` to `^8.0.0`
+- update: `@angular/platform-browser-dynamic` to `^8.0.0`
+- update: `@angular/router` to `^8.0.0`
+- update: `@coreui/angular` to `^2.5.0`
+- update: `@coreui/coreui` to `^2.1.11`
+- update: `@coreui/coreui-plugin-chartjs-custom-tooltips` to `^1.3.1`
+- update: `core-js` to `^2.6.9`
+- update: `ng2-charts` to `^2.3.0`
+- update: `ngx-boottsrap` to `^4.2.0`
+- update: `rxjs` to `^6.5.2`
+- update: `tsickle` to `^0.35.0`
+- update: `tslib` to `^1.9.3`
+- update: `zone.js` to `^0.9.1`
+- update: `@angular-devkit/build-angular` to `^0.800.1`
+- update: `@angular/cli` to `^8.0.1`
+- update: `@angular/compiler-cli` to `^8.0.0`
+- update: `@angular/language-service` to `^8.0.0`
+- update: `@types/node` to `^12.0.4`
+- update: `codelyzer` to `^5.1.0`
+- update: `jasmine-core` to `^3.4.0`
+- update: `karma` to `^4.1.0`
+- update: `karma-jasmine-html-reporter` to `^1.4.2`
+- update: `ts-node` to `^8.2.0`
+- update: `tslint` to `^5.17.0`
+- update: `typescript` to `~3.4.5`
 
 ###### `v2.4.5`
 - refactor(modals): add `@ViewChild` 

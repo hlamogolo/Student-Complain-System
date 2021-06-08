@@ -1,44 +1,41 @@
+<app-header
+  [navbarBrandRouterLink]="['/dashboard']"
+  [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/brand/logo.svg', width: 89, height: 25, alt: 'CoreUI Logo'}"
+  [navbarBrandMinimized]="{src: 'assets/img/brand/sygnet.svg', width: 30, height: 30, alt: 'CoreUI Logo'}"
+  [sidebarToggler]="'lg'"
+  [asideMenuToggler]="'lg'">
+  <!-- <ul class="nav navbar-nav d-md-down-none">
+    <li class="nav-item px-3">
+      <a class="nav-link" href="#">Dashboard</a>
+    </li>
+    <li class="nav-item px-3">
+      <a class="nav-link" href="#">Users</a>
+    </li>
+    <li class="nav-item px-3">
+      <a class="nav-link" href="#">Settings</a>
+    </li>
+  </ul> -->
+  <ul class="nav navbar-nav ml-auto">
+    
+  </ul>
+</app-header>
 <div class="app-body">
-  <main class="main d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <div class="card mx-4">
-            <div class="card-body p-4">
-              <form>
-                <h1>Register</h1>
-                <p class="text-muted">Create your account</p>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="icon-user"></i></span>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Username" autocomplete="username" required>
-                </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">@</span>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Email" autocomplete="email" required>
-                </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="icon-lock"></i></span>
-                  </div>
-                  <input type="password" class="form-control" placeholder="Password" autocomplete="new-password" required>
-                </div>
-                <div class="input-group mb-4">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="icon-lock"></i></span>
-                  </div>
-                  <input type="password" class="form-control" placeholder="Repeat password" autocomplete="new-password" required>
-                </div>
-                <button type="button" class="btn btn-block btn-success">Create Account</button>
-              </form>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+  <app-sidebar #appSidebar [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)">
+    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="appSidebar.minimized"></app-sidebar-nav>
+    <app-sidebar-minimizer></app-sidebar-minimizer>
+  </app-sidebar>
+  <!-- Main content -->
+  <main class="main">
+    <!-- Breadcrumb -->
+    <!-- breaking change 'cui-breadcrumb' -->
+    <div class="container-fluid mt-3">
+      <router-outlet></router-outlet>
+    </div><!-- /.container-fluid -->
   </main>
+  
 </div>
+<app-footer>
+  <span><a href="https://coreui.io">CoreUI</a> &copy; 2021 creativeLabs.</span>
+  <span class="ml-auto">Powered by <a href="https://coreui.io/angular">CoreUI for Angular</a></span>
+</app-footer>

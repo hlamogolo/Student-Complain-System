@@ -1,3 +1,6 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+// "./node_modules/@angu/material/prebuilt-themes/purple-green.css",
+
 // If you want to override variables do it here
 @import "variables";
 
@@ -6,3 +9,21 @@
 
 // If you want to add something do it here
 @import "custom";
+
+// For Icons
+span.d-flex{
+    width: 23px;
+    position: relative;
+    top: -5px;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: #020303;
+}
+
+td .mat-form-field-wrapper {
+    padding: 0 !important;
+}
+
+

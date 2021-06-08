@@ -1,3 +1,4 @@
+import { NgMaterialModule } from './../../sheard/ng-material.module';
 // Angular
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -11,7 +12,8 @@ import { ThemeRoutingModule } from './theme-routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    ThemeRoutingModule
+    ThemeRoutingModule,
+    NgMaterialModule
   ],
   declarations: [
     ColorsComponent,
